@@ -1,9 +1,12 @@
 
+
 div{
     max-width: 1600px;
     margin: 0 auto;
 }
-
+#hero-img{
+    width: 100%;
+}
 nav a{
 text-align: center;
 }
