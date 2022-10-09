@@ -1,8 +1,13 @@
 
-
+#content{
+    max-width: 1600px;
+}
 div{
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo, #icon {
+width: 80px;
 }
 #hero-img{
     width: 100%;
