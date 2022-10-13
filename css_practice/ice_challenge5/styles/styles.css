@@ -1,0 +1,18 @@
+body{
+    background-color:#737373 ;
+    margin: 0;
+}
+
+#circles{
+    width: 100%;
+}
+#desk, #graphic, #person{
+    margin: 4%;
+    text-align: center;
+    padding: 20px;
+    size:200px;
+    border-radius: 100%;
+    width: 400px;
+    background-color: #444444;
+
+}
