@@ -24,6 +24,7 @@ padding-top: 10px;
 nav a{
 text-align: center;
 padding: 35px;
+text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4{
 text-align: center;
@@ -59,6 +60,7 @@ header{
 }
 nav a{
     color: white;
+    text-decoration: none;
 }
 nav a:hover{
     background-color:#F5DD90		;
@@ -72,7 +74,7 @@ margin-top: 50px;
 border-radius: 5px;
 }
 .card-img{
-   border: black;
+    border: 15px solid black;
 }
 main section img{
     box-sizing: border-box;
@@ -96,7 +98,7 @@ color: white;
 background-color:#324376;
 padding: 25px 50px;
 margin-top: 200px;
-
+text-decoration: none;
 }
 footer .social img {
     padding-top: 15px;
