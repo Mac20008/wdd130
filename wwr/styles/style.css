@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&display=swap');
 
 #content{
-    max-width: 1600px;
+    max-width: 2000px;
 }
 div{ 
-    max-width: 1600px;
     margin: 0 auto;
 }
 .logo, .icon {
