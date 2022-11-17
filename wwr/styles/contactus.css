@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+div{ 
+    margin: 0 auto;
+}
+
+/* header code */
+header{
+    background-color:#324376		;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 150px auto;
+    z-index: 3;
+}
+.logo, .icon {
+    width: 80px;
+    padding-top: 10px;
+    }
+ /* Nav. */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    margin:0 auto;
+}
+nav a:hover{
+    background-color:#F5DD90		;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+/* footer code */
+  footer, footer a{
+    color: white;
+    background-color:#324376;
+    padding: 5px 5px;
+    margin-top: 200px;
+    text-decoration: none;
+    }
+    footer .social img {
+        padding-top: 15px;
+    }
+    footer {
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card-img {
+        border: 10px solid #d9c2a3;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+    .card-img:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
+    
