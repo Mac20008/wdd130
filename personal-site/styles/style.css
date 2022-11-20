@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+div{
+    margin: 0 auto;
+}
+
+/* Nav. */
+.logo, .icon {
+    width: 90px;
+    padding-top: 10px;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    margin:0 auto;
+}
+nav a:hover{
+    background-color:brown		;
+}
+
+/* header code */
+
+header{
+    background-color:#D6BB08		;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 150px auto;
+    z-index: 3;
+}
+
+#blog-msg{
+    background-color: #2C4E4C;
+}
+.home-title, .hero {
+    color: white;
+    font-size: 2em;
+    font-family: "Mochiy Pop P One"; 
+    margin-top: 10px;
+    text-align: center;
+}
+#hero-img{
+    width: 100%;
+}
