@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&display=swap');
 
 #content{
-    max-width: 1600px;
+    max-width: 1000px;
     margin: 0 auto;
+    color: #2C4E4C;
 }
 
 div{
@@ -44,7 +45,7 @@ header{
     background-color: #2C4E4C;
 }
 .home-title, .hero {
-    color: white;
+    color: black;
     font-size: 2em;
     font-family: "Mochiy Pop P One"; 
     margin-top: 10px;
@@ -52,4 +53,24 @@ header{
 }
 #hero-img{
     width: 100%;
+    align-content: center;
 }
+
+/* body of the website */
+
+.mission-statement{
+    padding: 10px;
+    color: black;
+    text-align: center;
+   font-size: large;
+}
+
+.rocks{
+    border-radius: 100%;
+    width: 100%;
+}
+.yard_work{
+    text-align: center;
+}
+
+/* footer-code */
