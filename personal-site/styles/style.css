@@ -45,8 +45,8 @@ header{
     background-color: #2C4E4C;
 }
 .home-title, .hero {
-    color: black;
-    font-size: 2em;
+    color: white;
+    font-size: 4em;
     font-family: "Mochiy Pop P One"; 
     margin-top: 10px;
     text-align: center;
@@ -58,19 +58,50 @@ header{
 
 /* body of the website */
 
+body{
+    background-color: #255822;
+}
+
 .mission-statement{
     padding: 10px;
-    color: black;
+    color: white;
     text-align: center;
    font-size: large;
+   font-size: 2em;
+   
 }
+
 
 .rocks{
     border-radius: 100%;
     width: 100%;
+    border: 10px solid black;
 }
 .yard_work{
     text-align: center;
+    color: white;
+   
 }
 
-/* footer-code */
+.msg2{
+    background-color: #2C4E4C;
+    border: 5px solid #D6BB08; 
+    font-size: 2em
+}
+
+
+/* footer code */
+footer, footer a{
+    color: white;
+    background-color:#2C4E4C;
+    padding: 5px 20px;
+    margin-top: 200px;
+    text-decoration: none;
+    }
+    footer .social img {
+        padding-top: 15px;
+    }
+    footer {
+        justify-content: space-around;
+        align-items: center;
+    }
