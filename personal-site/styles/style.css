@@ -59,6 +59,10 @@ nav a:hover{
     border: 1px solid #D6BB08;
     width: 80%; /* Could be more or less, depending on screen size */
   }
+
+  .psw{
+    text-decoration: none;
+  }
   
   /* The Close Button */
   .close {
