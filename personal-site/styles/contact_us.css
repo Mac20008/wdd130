@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&display=swap');
+
+#content{
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #2C4E4C;
+    padding: 25px;
+}
+
+div{
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Nav. */
+.logo, .icon {
+    width: 90px;
+    padding-top: 10px;
+    border-radius: 100%;   
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    margin:0 auto;
+}
+nav a:hover{
+    background-color:brown		;
+}
+
+/* header code */
+
+header{
+    background-color:#D6BB08		;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 150px auto;
+    z-index: 3;
+}
+
+#blog-msg{
+    background-color: #2C4E4C;
+}
+.title, .hero {
+    background-color: #2C4E4C;
+    color: white;
+    font-size: 4em;
+    font-family: "Mochiy Pop P One"; 
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+#hero-img{
+    width: 100%;
+    align-content: center;
+}
+
+/* body of the website */
+
+#home-grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  
+}
+.book{
+    color: black;
+    background-color: #5A391D ;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.book:hover{
+    background-color:#2C4E4C;
+    color: black;
+}
+
+.contacting_us{
+    color: white;
+    background-color: #2C4E4C;
+    grid-column: 1/2;
+    text-align: center;
+    font-size: 1.5em;
+}
+.contacting{
+    background-color: #D6BB08;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+body{
+    background-color: #255822;
+}
+.photo1{
+    border: #D6BB08 solid 2px;
+}
+.photo2{
+    grid-column: 4;
+    border: #D6BB08 solid 2px;
+    
+}
+
+.link{
+    background-color: #D6BB08;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.link:hover{
+    background-color: #2C4E4C;
+}
+.map{
+    font-size: 1.5em;
+    color: white;
+    background-color: #2C4E4C;
+}
+.img3{
+
+    border: #D6BB08 solid 2px;
+    width: 600px;
+  }
+  #googlemap{
+    grid-row-start:1;
+    text-decoration: none;
+  }
+
+/* footer code */
+footer, footer a{
+    color: white;
+    background-color:#2C4E4C;
+    padding: 5px 20px;
+    margin-top: 200px;
+    text-decoration: none;
+    }
+    footer .social img {
+        padding-top: 15px;
+    }
+    footer {
+        justify-content: space-around;
+        align-items: center;
+    }

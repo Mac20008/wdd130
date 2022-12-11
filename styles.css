@@ -1,0 +1,20 @@
+.title{
+    color: white    ;
+}
+
+body{
+    background-color: rgb(20, 168, 181);
+}
+.logo{
+    width: 500px;
+    padding-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: yellow;
+    padding: 25px;
+}
+
+nav a:hover{
+    background-color: red;
+}
