@@ -4,7 +4,6 @@
     max-width: 1000px;
     margin: 0 auto;
     color: #2C4E4C;
-    padding: 25px;
 }
 
 div{
@@ -87,15 +86,15 @@ header{
 .contacting_us{
     color: white;
     background-color: #2C4E4C;
-    grid-column: 1/2;
-    text-align: center;
+    grid-column: 1;
+    grid-row: 3;
     font-size: 1.5em;
+    text-align: center;
 }
 .contacting{
-    background-color: #D6BB08;
     color: white;
     text-align: center;
-    padding-bottom: 25px;
+    grid-row: 4;
 }
 
 body{
@@ -130,7 +129,8 @@ body{
     width: 600px;
   }
   #googlemap{
-    grid-row-start:1;
+    grid-row-start:3;
+    grid-column: 4;
     text-decoration: none;
   }
 
